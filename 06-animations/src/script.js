@@ -37,8 +37,8 @@ renderer.setSize(sizes.width, sizes.height)
 // CLOCK
 const clock = new THREE.Clock()
 
-gsap.to(mesh.position, {duration: 1, delay: 1, x: 2})
-gsap.to(mesh.position, {duration: 1, delay: 1, x: 0})
+gsap.to(mesh.position, {duration: 1, delay: 1, x: 2})   ////  Green sock library.  This tells the mesh to move 2 x units
+gsap.to(mesh.position, {duration: 1, delay: 1, x: 0})  /// this tells it to move back to 0
 
 // Animations
 
